@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Calc.css">
+
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        body {
+            height: 400px;
+            width: 500px;
+            background-color: aliceblue;
+
+        }
+
+        .container {
+        
+            width: 100px;
+            margin-left: 20px;
+            padding-top: 20px;
+            border-radius: 7px;
+        }
+
+        h5 {
+            font-size: 30px;
+            margin-top: 20px;
+            margin-left: 20px;
+
+        }
+
+        .container select,
+        input {
+            font-size: 20px;
+            cursor: pointer;
+            color: black;
+            text-size-adjust: 20px;
+            margin-bottom: 5px;
+            border: 2px solid gray;
+            border-radius: 5px;
+            box-shadow: 3px 4px;
+          }
+
+         select{
+            box-sizing: border-box;
+            padding: 1px 150px ;
+            font-size: 1px;
+
+
+         } 
+
+
+        label {
+            padding: 10px;
+            display: block;
+
+        }
+
+        button {
+            background-color: blue;
+            color: black;
+            padding: 10px 25px;
+            border: solid 2px black;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 115px;
+            margin-top: 40px;
+            font-size: 15px;
+        }
+        td{
+            border: 2px solid red;
+            padding: 5px;
+        }
+        
+
+/* select.inputstyle {
+   width:178px !important;
+   height:27px !important;
+   margin-top:6px !important;
+   direction:rtl !important; */
+   /* text-align:left; */
+/* } */
+
+
+
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h5>Form </h5>
+
+
+
+        <form action="">
+
+            <label for="">First Name</label>
+            <input type="text" placeholder=" First Name" size="40"><br></br>
+            <label for="">last Name </label>
+
+            <input type="text" placeholder="  last Name" size="40"><br></br>
+            <label for="">address</label>
+
+            <input type="test" placeholder=" address" size="40"><br><br>
+
+            <label for="">pincode</label>
+            <input type="test" placeholder=" pincode " size="40"><br></br>
+
+
+            <label for="" >Gender</label>
+           
+            <select    type="test" placeholder=" select"  >
+               <option selected value="select">select</option>
+                <option value="male">male</option>
+                <option  value="female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+            <br><br />
+
+
+            <label for="food"> food</label>
+            
+            <select type="test" placeholder=" select" >
+               <option  selected value="select">select</option>
+                <option value="Korma">Korma </option>
+                <option value="malai Kofta">malai kofta</option>
+                <option value="Rogan Josh">rogan Josh </option>
+                <option value="Butter Chicken">Butter Chicken </option>
+                <option value=" Karaikudi Curry">karaikudi Curry</option>
+
+            </select>
+            <br></br>
+
+            <label for="">conutry</label>
+            <input type="test" placeholder=" conutry" size="40"><br></br>
+
+            <label for="">statu</label>
+            <input type="" placeholder="  statu" size="40"><br></br>
+
+
+
+            <button type="submit">submit</button>
+        </form>
+
+    </div>
+
+<hr>
+<br>
+
+<div>
+
+    <table>
+        <thead>
+            <tr>
+                <td>first name</td>
+                <td>last name</td>
+                <td>Address</td>
+                <td>pincode</td>
+                <td>Gender</td>
+                <td>food</td>
+                <td>conutry</td>
+                <td>statu</td>
+
+            </tr>
+            </thead>
+            
+              <tbody>  
+            
+              <!-- <tr>
+                         <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td> 
+                    </tr>  -->
+            </tbody>
+    </table>
+        
+
+        
+    
+
+</div>
+
+
+
+
+</body>
+<script src="form.js"></script>
+</head>
+
+
+</html>
